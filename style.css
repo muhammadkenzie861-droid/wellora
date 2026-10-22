@@ -81,7 +81,7 @@ display: flex;
     transform: translateY(-2px);
     transition-delay: 0.2s;
 }
-.hero{
+.hero, .tentang{
     width: 90%;
     max-width: 1300px;
     margin: 0 auto;
@@ -246,7 +246,7 @@ width: fit-content;
   
 }
 .middle{
-    width: 80%;
+    width: 90%;
     max-width: 1100px;
     margin: 60px auto;
     display: flex;
@@ -303,26 +303,24 @@ width: fit-content;
     transition-delay: 0.2s;
 }
 .uno{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 20px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 .siento:hover{
        transform: translateY(-4px);
+       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.123);
     transition-delay: 0.3s;
 }
 .siento{
-    width: auto;
+    width: 48%;
     min-height: 170px;
     padding:10px 20px;
      border-radius: 20px;
     background-color: #fdfffe;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
+   
    
        
 }
@@ -342,4 +340,255 @@ span{
 .small{
     color: #707170;
     font-size: 12px;
+}
+.tentang{
+    background-color: #f1f4f2;
+    padding:  50px 40px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+    border: 1px solid #e5e9e8;
+}
+.about-kiri{
+
+}
+.about-title{
+    font-size: 36px;
+    color: #12372A;
+    font-weight: 800;
+    line-height: 1.,25;
+    margin-bottom: 16px;
+}
+.about-desc{
+    font-size:16px ;
+    color: #12372A;
+    font-weight: 600;
+    line-height: 1,6;
+    margin-bottom: 16px;
+}
+.value-item{
+
+    display: flex;
+background-color: #F8FCF8;
+padding: 16px 20px;
+gap: 16px;
+border-radius: 16px;
+border : 1px solid #e5e9e8;
+margin-bottom: 13px;
+}
+.value-icon{
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #e7f7ee;
+color: #2ead70;
+
+    width: 55px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value-title{
+    font-weight: 700;
+    font-size: 15px;
+    color: #12372A
+}
+.value-desc{
+    color: #52606d;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+.box-about-kanan{
+    background-color: #12372A;
+    color:white;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 12px 15px rgba(18, 55, 42, 0,15);
+}
+.tittle-about-kanan{
+     padding:10px 20px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: white;
+}
+.text-about-kanan{
+     padding:10px 20px;
+    margin-bottom: 15px;
+    font-weight: 350;
+    font-size: 15px;
+    color: #CBEFDB;
+}
+.about-box{
+ width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  box-shadow: 0 10px 15px rgba(20,55,25,0.3);
+}
+.card-item{
+     width: 45%;
+    min-height: 130px;
+    padding:10px 20px;
+     border-radius: 20px;
+    background-color: #08241686;
+
+       display: flex;
+       flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+.la{
+    color: #00ab17;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 650;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wa{
+    font-size: 13px;
+}
+.text-card{
+    font-size: 12px;
+    font-weight: 450;
+
+}
+.hubungi{
+    margin: 100px;
+   
+}
+.pa{
+ display: flex;
+align-items: center; 
+flex-direction: column;
+}
+.badge-edu{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.h-edu{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.desc-edu{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 150px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.edu-kiri{
+ display: flex;
+align-items: flex-start;
+    flex-direction: column;
+  
+  gap: 20px;
+ 
+}
+    .edu-flexs{
+        width: 600px;
+        min-height: 80px;
+        background-color: #e7e9e8;
+        padding: 10px 20px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+        .edu-log{
+            border-radius: 12px;
+            font-size: 18px;
+            background-color: #e7f7ee;
+        color: #2ead70;
+
+            width: 42px;
+            height: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .pal{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            }
+                .edu-pa{
+                    font-size: 12px;
+                    font-weight: 350;
+                    
+                }
+                .edu-info{
+                   font-size: 18px;
+                  font-weight: 700;
+                }
+ .pesanan{
+    background-color: #e3e7e5;
+    border-radius: 30px;
+    margin-left: 50px;
+    box-shadow: 0 6px 11px #3b3b3b48;
+width: 450px;
+height: 450px;
+ }       
+ .footer{
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #12372A;
+    color: #F8FCF8;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }        
+ .foot{
+font-weight: 300;
+color: #feffff;
+ }
+ .lol2{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+ }
+ .fo{
+      font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(198, 198, 198);
+ }
+.foo{
+text-decoration: none;
+color: #feffff;
+margin: 10px;
+}
+hr{
+    width: 75%;
+   border: none;
+   height: 1px;
+   background-color: rgba(194, 194, 194, 0.247);
+}
+.p{
+  
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    margin-top: 10px;
+    color: rgba(235, 235, 235, 0.518);
 }
