@@ -757,15 +757,48 @@ flex-direction: column;
     
 }
 .praf-a{
-background-color: #09f328;
-}
-.praf-b{
+    width: 60px;
+background-color: #09f3287c;
+border-radius: 20px;
+display: flex;
+justify-content: center;
 
 }
+.praf-b{
+color: #707170;
+}
 .praf-ab{
+   
     display: flex;
     flex-direction: row;
+
     justify-content: space-between;
+}
+.loh{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.loj{
+    font-size: 18;
+    margin-bottom: 10px;
+
+}
+.button-edua{
+    margin-top: 10px;
+    width: 55%;
+    color: #00ab17ea;
+   
+   
+
+}
+.fa-arrow-right-long{
+    margin-left: 10px;
+}
+.papa{
+    text-decoration: none;
+     color: #00ab17ea;
+     font-weight: 700;
 }
 .button-to-top{
  position: fixed;
