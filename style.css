@@ -491,7 +491,7 @@ flex-direction: column;
 }
 
 .badge-edu{
-    
+    color: #1F2933;
 
     text-align: center;
     display: flex;
@@ -499,6 +499,7 @@ flex-direction: column;
     justify-content: center;
 }
 .h-edu{
+    color: #00580c;
     font-size: 50px;
     text-align: center;
     font-weight: 700;
@@ -718,46 +719,63 @@ section{
     scroll-margin-top: 120px ;
 }
 .all-draf{
-    
+   
      width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-display: flex;
-justify-content: space-evenly;
+max-width: 1300px;
+display: grid;
 
+grid-template-columns: repeat(3, 2fr);
 gap: 20px;
+margin-left: 35px;
+margin: 0 auto; 
 }
 
 .edu-draf{
       width: 100%;
-    height: 550px;
+    height: auto;
     
      border-radius: 20px;
     background-color: #f7f7f7;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 display: flex;
 flex-direction: column;
+justify-content: center; 
 
-  
-  
-    
+ border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+.edu-draf img{
+      width: 100%;
+    height: 290px;
+    object-fit: cover;
+    display: block;
+}
+.edu-draf:hover{
+     transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     
 }
+
+
+
 .all-praf{
     padding: 20px;
 }
 .salad {
-   
     width: 100%;
-    height: 250px;
     overflow: hidden;
-     border-radius: 12px 12px 0 0;
-
-     object-fit: cover;
-    
+    border-radius: 12px 12px 0 0;  
+  transition: 0.2s ease;
+}
+.edu-draf:hover .salad{
+    transform: scale(1.08);
 }
 .praf-a{
-    width: 60px;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
 background-color: #09f3287c;
 border-radius: 20px;
 display: flex;
@@ -768,10 +786,10 @@ justify-content: center;
 color: #707170;
 }
 .praf-ab{
-   
+   margin-top: 20px;
     display: flex;
     flex-direction: row;
-
+align-items: center;
     justify-content: space-between;
 }
 .loh{
@@ -800,6 +818,7 @@ color: #707170;
      color: #00ab17ea;
      font-weight: 700;
 }
+
 .button-to-top{
  position: fixed;
  bottom: 30px;
@@ -824,4 +843,3 @@ color: #707170;
         transform: translateY(-4px);
         box-shadow: 0 8px 16px #1F2933;
 }
-
