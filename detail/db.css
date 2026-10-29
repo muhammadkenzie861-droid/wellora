@@ -1,0 +1,208 @@
+.button{
+    
+       margin-left: 10%;
+margin-bottom: 20px;
+    padding: 12px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(12, 250, 11);
+    font-weight: 600;
+border-radius:20px;
+border:1px solid #d6eadf;
+width: 20%;
+height: auto;
+
+display: flex;
+gap: 12px;
+align-self: center;
+justify-content: center;
+}
+.all-draf{
+   
+     width: 100%;
+max-width: 1300px;
+display: grid;
+
+grid-template-columns: repeat(3, 2fr);
+gap: 20px;
+margin-left: 35px;
+margin: 0 auto; 
+}
+.edu-draff{
+      width: 100%;
+    height: auto;
+    
+     border-radius: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center; 
+
+ border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+
+.edu-draf{
+      width: 80%;
+    height: auto;
+    
+     border-radius: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-self: center;
+justify-self: center;
+
+margin-bottom: 60px;
+ border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+.edu-draf img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+.all-praf{
+    padding: 20px;
+}
+.salad {
+    size: 250px;
+    width: auto;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;  
+  display: block;
+}
+
+.praf-a{
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+background-color: #09f3287c;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+
+}
+.praf-b{
+
+gap: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.praf-c{
+gap: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.praf-ab{
+   margin-top: 20px;
+   margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+    gap: 10px;
+}
+.db-ha{
+    font-size: 55px;
+    font-weight: 700;
+    
+}
+li{
+
+}
+.db-h{
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.loas{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 150px;
+    padding-bottom:50px ;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #12372A;
+    color: #F8FCF8;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }        
+ .foot{
+    width: 100%;
+font-weight: 300;
+color: #feffff;
+ }
+ .lol2{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+ }
+ .fo{
+     margin-bottom: 20px;
+      font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(198, 198, 198);
+ }
+ .p{
+    margin-bottom: 20px;
+ }
+.foo{
+   
+text-decoration: none;
+color: #feffff;
+margin: 10px;
+}
+hr{
+    width: 75%;
+   border: none;
+   height: 1px;
+   background-color: rgba(194, 194, 194, 0.247);
+}
+.pap{
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.466);
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.all-butt{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.button1{
+    background-color: #717171bd;
+    padding: 10px;
+    border-radius: 30px;
+     border: 1px solid #717171bd;
+}
