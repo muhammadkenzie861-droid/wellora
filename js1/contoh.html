@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contoh.css">
+</head>
+<body>
+    <h1 id="laka">halo</h1>
+    <p class="aswa">teks</p>
+    <script>
+       // const laka = document.querySelector("#laka");
+       const laka = document.getElementById("laka");
+laka.textContent = "belajar DOM"
+//const aswa = document.querySelector(".aswa");
+const aswa = document.getElementsByClassName("aswa");
+aswa[0].innerHTML= "<b>ini adalah contoh text</b>";
+
+    </script>
+</body>
+</html>
