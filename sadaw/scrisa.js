@@ -37,19 +37,22 @@ const databerita = [
     }
 ];
 
-const artikel = document.querySelector(".clone");
-const id = Number.parseInt(new URLSearchParams(window.location.search).get("id"), 10);
-const berita = databerita.find((item) => item.id === id);
+const template = document.querySelector("#temp");
+const daftar = document.getElementById("daftar");
 
-if (!artikel) {
-    throw new Error("Elemen artikel dengan class .clone tidak ditemukan.");
-}
 
-if (!berita) {
-    throw new Error(`Berita dengan id "${id}" tidak ditemukan.`);
-}
 
-artikel.querySelector(".judul").textContent = berita.judul;
-artikel.querySelector(".info").textContent = berita.deskripsi;
-artikel.querySelector(".isi").textContent = berita.isiberita;
-artikel.hidden = false;
+databerita.forEach(({ id, judul, deskripsi, isiberita }) => {
+
+     const clone= template.content.cloneNode(true); //2
+    //mengambil element article dari salinan template dan mengisi datanya
+    const templatekartu = clone.querySelector("article");
+
+     templatekartu.querySelector(".judul").textContent = judul;
+    templatekartu.querySelector(".info").textContent = deskripsi;
+    templatekartu.querySelector(".isi").textContent = isiberita;
+     templatekartu.hidden = false;
+
+    //menambahkan kartu ke dalam daftar
+    daftar.appendChild(clone);
+});

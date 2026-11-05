@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .daftar {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 50%;
+            gap: 16px;
+            
+        }
+        .kartu{
+            
+            padding: 16px;
+            border-radius: 5px;
+           
+        }
+    </style>
+     
+    <main class="daftar"  >
+        <a href="berita.html">kembali ke daftar berita</a>
+        <article class="kartu" id="berita-detail" hidden>
+            <h1 class="judul1"></h1>
+            <p class="psi"></p>
+            <p class="isi"></p>
+        </article>
+    </main>
+    <script src="berita.js">
+        
+    </script>
+</body>
+</html>
