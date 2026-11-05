@@ -788,6 +788,7 @@ border-radius: 20px;
 display: flex;
 justify-content: center;
 text-decoration: none;
+color: inherit;
 
 }
 .praf-b{
@@ -805,10 +806,12 @@ align-items: center;
     font-size: 23px;
     font-weight: 700;
     margin-bottom: 10px;
+    color: inherit;
 }
 .loj{
     font-size: 18;
     margin-bottom: 10px;
+    color: inherit;
 
 }
 .button-edua{
